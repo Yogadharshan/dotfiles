@@ -6,3 +6,9 @@ paste-cache/
 session-env/
 shell-snapshots/
 backups/
+
+*.local
+.env
+.env.*
+*.pem
+*.key
