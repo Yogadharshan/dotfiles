@@ -1,0 +1,8 @@
+cache/
+downloads/
+sessions/
+history.jsonl
+paste-cache/
+session-env/
+shell-snapshots/
+backups/
