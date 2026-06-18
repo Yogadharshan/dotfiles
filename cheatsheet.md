@@ -93,6 +93,22 @@ shortcuts:
 -   ctrl+b " → horizontal split
 -   ctrl+b arrow → move panes
 
+## gnome backup & restore
+
+backup:
+
+```bash
+dconf dump / > ~/dotfiles/gnome/dconf-backup.ini
+dconf dump /org/gnome/shell/extensions/ > ~/dotfiles/gnome/extensions.dconf
+```
+
+restore:
+
+```bash
+dconf load / < ~/dotfiles/gnome/dconf-backup.ini
+dconf load /org/gnome/shell/extensions/ < ~/dotfiles/gnome/extensions.dconf
+```
+
 if you see:
 
 ``` text
