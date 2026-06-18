@@ -93,6 +93,14 @@ shortcuts:
 -   ctrl+b " → horizontal split
 -   ctrl+b arrow → move panes
 
+if you see:
+
+``` text
+sessions should be nested with care
+```
+
+you are already inside tmux.
+
 ## gnome backup & restore
 
 backup:
@@ -109,13 +117,6 @@ dconf load / < ~/dotfiles/gnome/dconf-backup.ini
 dconf load /org/gnome/shell/extensions/ < ~/dotfiles/gnome/extensions.dconf
 ```
 
-if you see:
-
-``` text
-sessions should be nested with care
-```
-
-you are already inside tmux.
 
 ## claude code workflow
 
